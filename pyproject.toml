@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "diffusional"
+version = "0.1.0"
+description = ""
+authors = ["restlessbytes <markus@restless-bytes.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+diffusers = "^0.12.1"
+transformers = "^4.26.0"
+accelerate = "^0.16.0"
+scipy = "^1.10.0"
+safetensors = "^0.2.8"
+ipython = "^8.9.0"
+Flask = "^2.2.3"
+black = "^23.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
