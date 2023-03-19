@@ -24,6 +24,10 @@ Models used for the image generation are defined in `config.py`.
 5. Open `http://localhost:5000/` in your preferred browser.
 6. Have fun generating images :)
 
+**Screenshot: WebUI**
+
+![Diffusional - Web UI](webui-screenshot.png)
+
 #### Saving images
 
 After you've generated some images, a "Save" option appears above your image list. As you might've guessed, this allows you to "save" images that you've generated and like: fill in the field `prefix` and hit "Save". Your images will then be move into a folder called whatever you just typed into `prefix` together with a file `prompt.txt` where you'll find the prompt that was used to generate those images. 
