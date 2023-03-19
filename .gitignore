@@ -1,0 +1,14 @@
+.DS_Store
+.idea/
+*.log
+
+tmp/
+prompt.txt
+*.png
+*.jpg
+*.jpeg
+test_config.py
+
+__pycache__/
+.mypy_cache/
+poetry.lock
